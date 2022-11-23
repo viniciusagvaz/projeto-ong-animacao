@@ -1,0 +1,71 @@
+/*
+  Paleta de cores:
+   #FEE356 #70FFAC #FFDF3D #FF574A #AF3DFF #70B6FF  #FFBC4A;
+*/
+
+
+
+/*layout formulario contato inicio*/
+main{ 
+   display: flex;
+   padding: 48px 80px;
+   align-items: center;
+   height: 800px;
+   width: 100%;
+}
+
+/*layout conteudo blog*/
+#conteudo-sobre-nos{
+   margin-top: 32px;
+}
+
+#conteudo-sobre-nos h3{
+   font-family: 'Mali';
+   font-weight: 800;
+}
+
+.conteudo-sobre-nos-postagem{
+   display: flex;
+   padding: 0px 00px;
+   margin: 48px;
+   width: 100%;
+   background-color: aliceblue;
+   box-shadow: 2px 2px rgba(0, 0, 0, 0.24);
+}
+
+.conteudo-sobre-nos-postagem-title{
+   display: flex;
+   flex-direction: column;
+   align-items: flex-start;
+   margin-left: 16px;
+}
+
+.conteudo-sobre-nos-postagem h3{
+   font-size: 28px;
+   line-height: 24px;
+   color: #19589b;
+   border-bottom: 2px solid #70B6FF;
+   padding-top: 16px;
+   width: 300px;
+}
+
+.conteudo-sobre-nos-postagem p{
+   margin: 18px;
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 20px;
+   line-height: 24px;
+   color: rgba(0, 0, 0, 0.71);
+}
+
+.conteudo-sobre-nos-postagem img{
+   width: 300px;
+   height: 300px;
+   border-radius: 2px;
+   box-shadow: 2px 2px rgba(0, 0, 0, 0.24);
+}
+/* layout hero inicio */
+
+#conteudo-hero a img{
+   width: 1519.2px;
+   margin-top: 32px;
+}

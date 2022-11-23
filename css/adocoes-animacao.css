@@ -1,0 +1,104 @@
+/*
+  Paleta de cores:
+   #FEE356 #70FFAC #FFDF3D #FF574A #AF3DFF #70B6FF  #FFBC4A;
+*/
+
+/*layout formulario contato inicio*/
+main{ 
+
+   padding: 48px 80px;
+   align-items: center;
+   height: 100%;
+}
+
+/*layout conteudo blog*/
+#conteudo-principal{
+   background-color: aliceblue;
+}
+
+#conteudo-principal-title{
+   text-align: center;
+   font-size: 64px;
+   font-family: 'Mali';
+   color: aliceblue;
+   background-color: #9500ff;
+   border-radius: 4px;
+   box-shadow: 4px 4px rgba(0, 0, 0, 0.215);
+}
+
+#conteudo-adocoes{
+   display: flex;
+   align-items: center;
+   flex-wrap: wrap;
+   justify-content: space-between;
+   gap: 32px;
+   background-color: rgb(254, 255, 232);
+   box-shadow: 4px 4px rgba(0, 0, 0, 0.14);
+}
+
+.conteudo-adocoes-animal img{
+   width: 300px;
+   background-color: rgb(0, 135, 254);
+}
+
+.conteudo-adocoes-descricao{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   margin-bottom: 32px;
+   border: 4px dotted firebrick;
+   background-color: antiquewhite;
+}
+
+.conteudo-adocoes-descricao h4{
+   font-family: 'Mali';
+}
+
+.conteudo-adocoes-descricao p{
+   font-size: 16px;
+}
+
+.conteudo-adocoes-descricao button{
+   width: 112px;
+   height: 42px;
+   font-size: 16px;
+   border-style: none;
+   border-radius: 4px;
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   color: white;
+   font-weight: 500;
+   background-color:  #AF3DFF;
+   box-shadow: 1px 1px rgba(0, 0, 0, 0.14);
+   margin: 8px;
+}
+
+.conteudo-adocoes-descricao button:hover{
+   background-color: #9500ff;
+   box-shadow: 4px 4px rgb(0, 0, 0);
+
+}
+
+.conteudo-adocoes-trio{
+   display: flex;
+   flex-direction: column;
+   margin: 48px;
+}
+
+#conteudo-principal button{
+   width: 112px;
+   height: 42px;
+   font-size: 16px;
+   border-style: none;
+   border-radius: 4px;
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   color: white;
+   font-weight: 500;
+   background-color:  #AF3DFF;
+   box-shadow: 1px 1px rgba(0, 0, 0, 0.14);
+   margin: 8px;
+}
+
+#conteudo-principal a:hover{
+   color: #fff;
+   background-color: #9500ff;
+}

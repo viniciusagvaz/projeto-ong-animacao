@@ -1,0 +1,109 @@
+/*layout formulario contato inicio*/
+main{ 
+   display: flex;
+   justify-content: space-around;
+   padding: 48px 80px;
+   align-items: center;
+   height: 704px;
+}
+
+/*layout formulario texto inicio*/
+#contato-texto h1{
+   font-size: 48px;
+   font-family: "Mali";
+   font-weight: 800;
+}
+
+#contato-texto-endereco{
+   font-size: 18px;
+   margin-top: 20px;
+   line-height: 20px;
+}
+
+#contato-redes-sociais{
+   line-height: 20px;
+   margin-top: 20px;
+   
+}
+#contato-redes-sociais h2{
+   font-family: 'Mali';
+   padding-bottom: 8px;
+}
+#contato-redes-sociais img{
+   margin-right: 4px;
+}
+/*layout formulario dados incio*/
+#contato-formulario{
+   width: 550px;
+   background-color: aliceblue;
+   border-radius: 8px;
+   box-shadow: 1px 1px rgba(0, 0, 0, 0.088);
+   padding: 16px;
+}
+
+#contato-formulario h6{
+   font-size: 16px;
+   width: 80%;
+}
+#contato-formulario span{
+   font-weight: 100;
+}
+/*layout formulario inputs inicio*/
+#contato-formulario-inputs{
+   display: flex;
+   flex-direction: column;
+   margin-top: 24px;
+}
+
+#contato-formulario-inputs input{
+   margin-bottom: 16px;
+   padding: 12px;
+   border-radius: 4px;
+   border: 1px solid #ccc;
+   box-shadow: 1px 1px rgba(0, 0, 0, 0.14);
+}
+
+#contato-formulario-inputs input:hover{
+   background-color: #70B6FF;
+}
+
+input::placeholder{
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; color: #333;
+   font-size: 16px;
+}
+
+#contato-formulario-inputs textarea{
+   margin-bottom: 16px;
+   resize: none;
+   padding: 12px;
+   border-radius: 4px;
+   border: 1px solid #ccc;
+   font-size: 16px;
+   box-shadow: 1px 1px rgba(0, 0, 0, 0.14);
+}
+
+#contato-formulario-inputs textarea:hover{
+   background-color: #70B6FF;
+}
+textarea::placeholder {
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; color: #333;
+   font-size: 16px;
+}
+
+#contato-formulario-inputs button{
+   width: 112px;
+   height: 42px;
+   font-size: 16px;
+   border-style: none;
+   border-radius: 4px;
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   color: white;
+   font-weight: 500;
+   background-color:  #AF3DFF;
+   box-shadow: 1px 1px rgba(0, 0, 0, 0.14);
+}
+
+#contato-formulario-inputs button:hover{
+   background-color: #9500ff;
+   box-shadow: 1px 1px rgb(0, 0, 0);
+}
