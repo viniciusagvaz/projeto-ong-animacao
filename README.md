@@ -1,2 +1,3 @@
 # projeto-ong-animacao
-projeto particular
+
+primeiro projeto usando html e css.
