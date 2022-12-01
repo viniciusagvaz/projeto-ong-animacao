@@ -58,26 +58,6 @@ main{
    font-size: 16px;
 }
 
-.conteudo-adocoes-descricao button{
-   width: 112px;
-   height: 42px;
-   font-size: 16px;
-   border-style: none;
-   border-radius: 4px;
-   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-   color: white;
-   font-weight: 500;
-   background-color:  #AF3DFF;
-   box-shadow: 1px 1px rgba(0, 0, 0, 0.14);
-   margin: 8px;
-}
-
-.conteudo-adocoes-descricao button:hover{
-   background-color: #9500ff;
-   box-shadow: 4px 4px rgb(0, 0, 0);
-
-}
-
 .conteudo-adocoes-trio{
    display: flex;
    flex-direction: column;
@@ -98,7 +78,14 @@ main{
    margin: 8px;
 }
 
+#conteudo-principal button:hover{
+   background-color: #9500ff;
+   box-shadow: 1px 1px #222;
+}
+
 #conteudo-principal a:hover{
    color: #fff;
    background-color: #9500ff;
 }
+
+

@@ -59,7 +59,6 @@ body{
 }
 
 #cabecalho-logo-e-titulo{
-   
    display: flex;
    align-items: center;
    height: 48px;
