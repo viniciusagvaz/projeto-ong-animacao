@@ -48,6 +48,7 @@ main{
    margin-bottom: 32px;
    border: 4px dotted firebrick;
    background-color: antiquewhite;
+   width: 300px;
 }
 
 .conteudo-adocoes-descricao h4{
@@ -62,9 +63,10 @@ main{
    display: flex;
    flex-direction: column;
    margin: 48px;
+   border: 1px solid;
 }
 
-#conteudo-principal button{
+ .conteudo-adocoes-descricao button{
    width: 112px;
    height: 42px;
    font-size: 16px;
